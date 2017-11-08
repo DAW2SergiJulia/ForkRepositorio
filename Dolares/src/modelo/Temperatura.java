@@ -7,14 +7,14 @@ package modelo;
 
 /**
  *
- * @author sergi
+ * @author sDavid
  */
 public class Temperatura {
     //constructor vacio para reservar memoria dinamicamente
     public Temperatura(){
     }
     
-    public double gr_fa (double gr) {
+    public double grfa (double gr) {
         double fa = (1.8*gr)+32;
         return fa;
     }
